@@ -1,4 +1,4 @@
-import { vueComponents } from 'http://localhost:5002/vue-apps/dist/hubs.js';
+import { vueComponents } from 'https://localhost:5002/vue-apps/dist/hubs.js';
 
 const waitForEvent = function(eventName, eventObj) {
     return new Promise(resolve => {
@@ -4380,7 +4380,7 @@ loader.load(spinnerImage, (color) => {
 // if (window.__testingVueApps) {
 //     scriptPromise = import(window.__testingVueApps)    
 // } else {
-//     scriptPromise = import("http://localhost:5002/vue-apps/dist/hubs.js") 
+//     scriptPromise = import("https://localhost:5002/vue-apps/dist/hubs.js") 
 // }
 // // scriptPromise = scriptPromise.then(module => {
 // //     return module
