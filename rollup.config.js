@@ -12,7 +12,7 @@ if ((process.env.BUILD !== 'production')) {
     componentPath = "https://jay-vue-apps.ngrok.io/vue-apps/";
     serverPath = "https://jay-core.ngrok.io/build/";
 } else {
-    componentPath = "http://localhost:5002/";
+    componentPath = "http://localhost:5002/vue-apps/";
     // componentPath = "https://aloha062123.github.io/vue-apps/";
     // componentPath = "https://jay-vue-apps.ngrok.io/vue-apps/";
     serverPath = "https://aloha062123.github.io/core-components/";
