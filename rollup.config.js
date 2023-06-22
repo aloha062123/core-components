@@ -9,11 +9,11 @@ import commonjs from '@rollup/plugin-commonjs';
 var componentPath
 var serverPath
 if ((process.env.BUILD !== 'production')) {
-    componentPath = "https://blair-vue-apps.ngrok.io/vue-apps/";
-    serverPath = "https://blair-core.ngrok.io/build/";
+    componentPath = "https://jay-vue-apps.ngrok.io/vue-apps/";
+    serverPath = "https://jay-core.ngrok.io/build/";
 } else {
-    componentPath = "https://resources.realitymedia.digital/vue-apps/";
-    serverPath = "https://resources.realitymedia.digital/core-components/";
+    componentPath = "https://aloha062123.github.io/vue-apps/";
+    serverPath = "https://aloha062123.github.io/core-components/";
 }
 
 export default ['index', 'main-room'].map((name, index) => ({
